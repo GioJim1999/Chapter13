@@ -8,12 +8,15 @@ private:
 	string make;
 	int speed;
 public:
+	//Constructors:
 	Car(int newYearModel, string newSpeed);
 
+	//Getters:
 	int getYearModel() const;
 	string getMake() const;
 	int getSpeed() const;
 
+	//Member functions:
 	void accelerate();
 	void brake();
 };
